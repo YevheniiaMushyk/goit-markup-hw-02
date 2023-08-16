@@ -1,0 +1,123 @@
+:root {
+     --slate: #434455; /*color body text*/
+     --navyblue: #2E2F42; /*color title mail*/
+     --iris: #4D5AE5; /*color half logo*/
+     --white: #FFF; /*color section1*/
+     --cloud: #F4F4FD; /*color section3*/
+     --ocean: #404BBF; /*color  menu hover focus*/
+     --slate: #434455; /*color text address*/
+
+}
+
+/* Body style */
+.container {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.32px;
+
+    max-width: 1440px;
+    max-height: 3300px;
+    background-color: #FFF;
+
+    color: var(--slate);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.logo {
+    color: var(--navyblue);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.1667; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.logo-half1 {
+    color: var(--iris);
+}
+
+.logo-footer {
+    color: var(--cloud);
+}
+
+.nav-menu:link {
+    color: var(--navyblue);
+    font-weight: 500;
+}
+
+.nav-menu:hover, .nav-menu:focus {
+    color: var(--ocean); 
+}
+
+.nav-address:link {
+    color: var(--slate);
+    font-style: normal;
+}
+
+.nav-address:hover, .nav-address:focus {
+    color: var(--ocean);
+}
+
+h1 {
+    background: var(--navyblue);
+    color: var(--white);
+    text-align: center;
+    /* Header 1 */
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.071; /* 107.143% */
+    letter-spacing: 1.12px;
+}
+
+h2 {
+    color: var(--navyblue);
+    text-align: center;
+    /* Header 2 */
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.111; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: var(--navyblue);
+    text-align: center;
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.4px;
+}
+
+.button {
+    color: var(--white);
+    /* Button Text */
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    background-color: var(--iris);
+}
+
+.button:hover, .button:focus {
+    background-color: var(--ocean);
+}
+
+.section3 {
+    background: var(--cloud);
+}
+
+.footer {
+    background-color: var(--navyblue);
+    color: var(--cloud);
+}
