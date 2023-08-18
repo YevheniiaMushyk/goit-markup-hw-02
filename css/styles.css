@@ -1,7 +1,7 @@
 :root {
      --slate: #434455; /*color body text*/
      --navyblue: #2E2F42; /*color title mail*/
-     --iris: #4D5AE5; /*color half logo*/
+     --iris: #4D5AE5; /*color logo*/
      --white: #FFF; /*color section1*/
      --cloud: #F4F4FD; /*color section3*/
      --ocean: #404BBF; /*color  menu hover focus*/
@@ -32,19 +32,29 @@ a:link {
 }
 
 .logo {
-    color: var(--navyblue);
-    font-family: Raleway;
+    color: var(--iris);
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.1667; /* 116.667% */
+    line-height: 1.17; /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.logo-half1 {
-    color: var(--iris);
+.logo-half2 {
+    color: var(--navyblue);
 }
 
 .logo-footer {
+    color: var(--iris);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-halftoot{
     color: var(--cloud);
 }
 
@@ -66,7 +76,7 @@ a:link {
     color: var(--ocean);
 }
 
-h1 {
+.title-main {
     background: var(--navyblue);
     color: var(--white);
     text-align: center;
@@ -74,23 +84,23 @@ h1 {
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.071; /* 107.143% */
+    line-height: 1.07; /* 107.143% */
     letter-spacing: 1.12px;
 }
 
-h2 {
+.title-subtitle {
     color: var(--navyblue);
     text-align: center;
     /* Header 2 */
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.111; /* 111.111% */
+    line-height: 1.11; /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
 
-h3 {
+.title {
     color: var(--navyblue);
     text-align: center;
     /* Header 3 */
@@ -105,19 +115,35 @@ h3 {
     color: var(--white);
     /* Button Text */
     font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.64px;
     background-color: var(--iris);
+    cursor: pointer;
 }
 
 .button:hover, .button:focus {
     background-color: var(--ocean);
 }
 
-.section3 {
+.section-main {
+    background: var(--navyblue);
+}
+/* для чого дублювати характеристики які наслідуються з основного контейнеру? */
+.main-text {
+    color: inherit;
+    font-size: 16px;
+}
+
+.section-our_team {
     background: var(--cloud);
 }
 
+.image {background-color: #FFFFFF;}
+
 .footer {
     background-color: var(--navyblue);
+}
+
+.footer-text {
     color: var(--cloud);
 }
