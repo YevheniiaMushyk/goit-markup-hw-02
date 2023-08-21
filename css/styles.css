@@ -91,7 +91,6 @@ a.nav-menu:hover, a.nav-menu:focus {
     line-height: 1.5;
     letter-spacing: 0.64px;
     background-color: var(--iris);
-    cursor: pointer;
 }
 
 .button:hover, .button:focus {
