@@ -12,15 +12,10 @@
 /* main parameters for wrapper */
 .container {
     font-family: Roboto, sans-serif;
-    font-size: 16px;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.32px;
-
     max-width: 1440px;
-    max-height: 3300px;
     background-color: #FFF;
-
-    color: var(--slate);
 }
 
 
@@ -77,7 +72,6 @@ a.nav-menu:hover, a.nav-menu:focus {
     background: var(--navyblue);
     color: var(--white);
     text-align: center;
-    font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07; /* 107.143% */
@@ -85,6 +79,7 @@ a.nav-menu:hover, a.nav-menu:focus {
 }
 
 .button {
+    cursor: pointer;;
     color: var(--white);
     /* Button Text */
     font-weight: 500;
@@ -103,7 +98,6 @@ a.nav-menu:hover, a.nav-menu:focus {
 .title-subtitle {
     color: var(--navyblue);
     text-align: center;
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11; /* 111.111% */
@@ -115,16 +109,14 @@ a.nav-menu:hover, a.nav-menu:focus {
 .title {
     color: var(--navyblue);
     /* Header 3 */
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2; /* 120% */
     letter-spacing: 0.4px;
 }
 
-/* для чого дублювати характеристики які наслідуються з основного контейнеру? */
 .main-text {
-    color: inherit;
+    color: var(--slate);
     font-size: 16px;
 }
 
@@ -139,16 +131,6 @@ a.nav-menu:hover, a.nav-menu:focus {
 /* --FOOTER-- */
 .footer {
     background-color: var(--navyblue);
-}
-
-.logo-footer {
-    color: var(--iris);
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17; /* 116.667% */
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
 }
 
 .logo-halftoot{
